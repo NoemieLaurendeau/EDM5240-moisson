@@ -54,21 +54,21 @@ for ligne in page.find_all("tr"):
         # contenu3 = requests.get(ligne.a["href"], headers=entetes)    
         # page3 = BeautifulSoup(contenu3.text,"html.parser")
         
-        # k = 0
+        # y = 0
                 
         # for element in page3.find_all("tr"):
-                # if k==1:
+                # if y==1:
                         # if element.div is not None:
                             # beneficiaire = element.div.text
                         # else:
                             # beneficiaire = ""
                             
-                # elif k==4:
+                # elif y==4:
                         # if element.div is not None:
                             # valeur = element.div.text
                         # else:
                             # valeur = ""
-                            # k = k+1
+                            # y = y+1
                             
             
 # Tentative de création du fichier CSV. 
