@@ -58,18 +58,18 @@ for ligne in page.find_all("tr"):
                 
         # for element in page3.find_all("tr"):
                 # if k==1:
-                        # if element.td is not None:
+                        # if element.div is not None:
                             # beneficiaire = element.div.text
                         # else:
-                            # nom = ""
+                            # beneficiaire = ""
                             
                 # elif k==4:
-                        # if element.td is not None:
+                        # if element.div is not None:
                             # valeur = element.div.text
                         # else:
-                            # typeSubvention = ""
+                            # valeur = ""
                             # k = k+1
                             
             
 # Tentative de création du fichier CSV. 
-# final.writerow([nom,valeur]) 
+# contrat.writerow([nom,valeur]) 
