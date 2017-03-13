@@ -48,7 +48,11 @@ for ligne in page.find_all("tr"):
 # Tentative d'enlever le nom des catégories et seulement garder les éléments de réponses dans les informations:
 
         # for chose in machin:
-        # if chose != (class=)"strong"
+        if chose != (class=)"strong"
+        
+# Autre tentative d'aller chercher les éléments de réponses dans les informations du contrat: 
+# for item in page.find("div", "style="float: left; width: 60%; padding: 2px 2px 12px 0px").find_all("tr"):
+#     print(item)
 
 # Tentative d'aller chercher seulement le nom du bénéficiaire et le valeur du contrat:
         # contenu3 = requests.get(ligne.a["href"], headers=entetes)    
